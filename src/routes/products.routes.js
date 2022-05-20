@@ -13,7 +13,7 @@ const {
 } = require("../controllers/products.controllers");
 
 router.get("/products", getProducts);
-router.get("/products", getProductQuery);
+// router.get("/products", getProductQuery);
 router.get("/products/:id", getOneProduct);
 router.get("/products/category", getProductCategory);
 router.get("/products/category/:nombreCat", getProductByCategory);
